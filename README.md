@@ -22,7 +22,7 @@ For Panel B, we acccessed a variety of estimates of excess deaths. Here we are i
 * Center for Investigative Journalism - [here](http://periodismoinvestigativo.com/2017/12/nearly-1000-more-people-died-in-puerto-rico-after-hurricane-maria/)
 * New York Times (Frances Robles anc colleagues) - [here](https://www.nytimes.com/interactive/2017/12/08/us/puerto-rico-hurricane-maria-death-toll.html)
 * Latino USA (Julio Ricardo Varela) - [here](https://latinousa.org/2018/02/08/puerto-rican-journalists-sue-demographic-registry-hurricane-maria-death-statistics/)
-* Menzie Chinn - [here](http://www.ssc.wisc.edu/~mchinn/pr_popadjmort.pdf]
+* Menzie Chinn - [here](http://www.ssc.wisc.edu/~mchinn/pr_popadjmort.pdf)
 * Puerto Rico Gov. Report - [here](https://www.nytimes.com/es/2018/08/09/puerto-rico-muertos-huracan-maria/)
 * Princeton Policy Advisors - [here](https://www.princetonpolicy.com/ppa-blog/2018/6/3/pr-releases-new-data-deaths-1400-not-4600)
 * Rivera and Rolke - [here](https://rss.onlinelibrary.wiley.com/doi/full/10.1111/j.1740-9713.2018.01102.x)
