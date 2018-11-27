@@ -54,7 +54,7 @@ library("scales")
 library("cowplot")
 library("gridExtra")
 
-data_fig<-read.csv("PATH HERE/figure_1.csv")
+data_fig<-read.csv("C:/Users/ars39/Dropbox/Rebel Demographers/Hurricane Maria/Commentary on Santos-Burgoa et al/figure_1.csv")
 
 data_fig$Source<-as.character(data_fig$Source)
 data_fig$Excess<-as.character(data_fig$Excess)
@@ -68,7 +68,7 @@ expected_deaths <- ggplot(data = data_fig, aes(x = Source, y = Center, color = S
   theme(legend.title=element_text(size = 9),
     legend.position ="bottom", 
     legend.justification ="center")+
-    labs(title = "Panel A: Deaths between September February Deaths in Puerto Rico, 2010-2018", subtitle = "Santos-Burgoa (2018), Observed (Sept 2017-Feb 2018), 2010-2017 Confidence Intervals, and Excess (In Parenthesis)", y = "Deaths", x ="Source")
+    labs(title = "Panel A: Deaths between September AND February in Puerto Rico, 2010-2018", subtitle = "Santos-Burgoa (2018), Observed (Sept 2017-Feb 2018), 2010-2017 Confidence Intervals, and Excess (In Parenthesis)", y = "Deaths", x ="Source")
     
 expected_deaths
 
