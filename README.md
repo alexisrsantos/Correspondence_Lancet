@@ -9,6 +9,13 @@ This repository includes the following:
 * [Data used to produce Figure 1 - Panel B](figure_1_b.csv)
 * Data for the descriptive analysis (meta-analysis) is the same as for Figure 1 - Panel B
 
+# Figure 1
+## Panel A - Deaths between September and February in Puerto Rico 2010-2018
+![Panel A](Panel_A.png)
+
+## Panel B - Vital Statistics Estimates Produced since September 2017
+![Panel B](Panel_B.png)
+
 # Problems?
 If you find any problems with our data or code, please create an [issue](https://github.com/alexisrsantos/Correspondence_Lancet/issues) and we will answer it as soon as possible. 
 
