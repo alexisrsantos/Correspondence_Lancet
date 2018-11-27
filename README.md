@@ -16,6 +16,9 @@ This repository includes the following:
 ## Panel B - Vital Statistics Estimates Produced since September 2017
 ![Panel B](Panel_B.png)
 
+# Previous Estimates
+For Panel B, we acccessed a variety of estimates of excess deaths. Here we are including links to each of these estimates, which are compiled in the data file used to produced [Panel B](figure_1_b.csv).
+
 # Problems?
 If you find any problems with our data or code, please create an [issue](https://github.com/alexisrsantos/Correspondence_Lancet/issues) and we will answer it as soon as possible. 
 
