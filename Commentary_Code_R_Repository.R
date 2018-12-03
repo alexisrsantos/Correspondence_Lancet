@@ -76,7 +76,7 @@ expected_deaths <- ggplot(data = data_fig, aes(x = Source, y = Center, color = S
   theme(legend.title=element_text(size = 9),
     legend.position ="bottom", 
     legend.justification ="center")+
-    labs(title = "Panel A: Deaths between September and February in Puerto Rico, 2010-2018", subtitle = "Santos-Burgoa (2018), Sept 2017-Feb 2018, 2010-2016 Confidence Intervals, and Excess (Parentheses)", y = "Deaths", x ="")
+    labs(title = "Panel A: Deaths between September and February in Puerto Rico, 2010-2018", subtitle = "Santos-Burgoa (2018), Sept 2017-Feb 2018, 2010-2017 Confidence Intervals, and Excess (Parentheses)", y = "Deaths", x ="")
     
 expected_deaths #Show Panel A
 
@@ -101,7 +101,7 @@ month_average95 # Show month average and 95% C.I.
 
 month_average99 # Show month average and 99% C.I.
 
-# This data is used in Panel B
+# This data is used in Panel B (already included in the excel)
 
 ######################################
 # Create a figure from Correspondence#
