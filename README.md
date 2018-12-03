@@ -17,9 +17,12 @@ This repository includes the following:
 ### Panel B 
 ![Panel B](Panel_B.png)
 
-We also must ask ourselves whether the pre-Hurricane period behaved similarly to the historical trends. In this Supplementary Panel, we present the confidence intervals for January-August 2010-2016 and the corresponding total for 2017. As it can be appreciated in tis figure, the pre-Hurricane Maria period had 19,542 deaths which fall within the margins of variation observed in the previous years of the decade. There is **no** reason to build a counterfactual that does not behaves as it did for the pre-Hurricane Maria period. 
+#### Analysis of Panel B
+We also must ask ourselves whether the pre-Hurricane period behaved similarly to the historical trends. In this [Supplementary Panel]((Panel_B.png), we present the confidence intervals for January-August 2010-2016 and the corresponding total for 2017. As it can be appreciated in this figure, the pre-Hurricane Maria period had 19,542 deaths which fall within the margins of variation observed in the previous years of the decade (even with the ongoing out-migration). 
 
-The appropriate counterfactual should be one where the predicted value falls within the historical ranges of variation for the previous decade. 
+There is **no** reason to build a counterfactual that does not behaves as it did for the pre-Hurricane Maria period. 
+
+The appropriate counterfactual should be one where the predicted value falls within the historical ranges of variation for the previous decade. We believe, this reinforces modeling approaches that produce values close to that of the census-scenario. 
 
 ## Previous Estimates
 For Supplementary Panel A, we acccessed a variety of estimates of excess deaths. Here we are including links to each of these estimates, which are compiled in the data file used to produced [Panel B](figure_1_b.csv).
