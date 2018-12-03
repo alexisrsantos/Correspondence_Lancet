@@ -37,6 +37,7 @@ For Supplementary Panel A, we acccessed a variety of estimates of excess deaths.
 
 ## Supplementary Figure
 Here is a visualization of those estimates, and of the GWU scenarios.
+
 ![Supplementary Panel A](SuppPanel_A.png)
 
 # Problems?
