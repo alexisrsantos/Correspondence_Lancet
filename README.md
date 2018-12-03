@@ -1,7 +1,8 @@
-# Introduction 
+# Title for the Commentary 
+## Introduction 
 This website includes the data and code neccesary to replicate our analysis contained in response to the paper [**"Differential and persistent risk of excess mortality from Hurricane Maria in Puerto Rico: a time-series analysis"**](https://www.thelancet.com/journals/lanpla/article/PIIS2542-5196(18)30209-2/fulltext) which was published in [Lancet-Planetary Health](https://www.thelancet.com/journals/lanplh/issue/current). 
 
-# Content
+## Content
 This repository includes the following:
 
 * [R code to produce the figures and meta-descriptive analysis discussed in our Letter](Commentary_Code_R_Repository.R)
@@ -9,14 +10,14 @@ This repository includes the following:
 * [Data used to produce Figure 1 - Panel B](figure_1_b.csv)
 * Data for the descriptive analysis (meta-analysis) is the same as for Figure 1 - Panel B
 
-# Figure 1
-## Panel A - Deaths between September and February in Puerto Rico 2010-2018
+## Figure 1
+### Panel A - Deaths between September and February in Puerto Rico 2010-2018
 ![Panel A](Panel_A.png)
 
-## Panel B - Vital Statistics Estimates Produced since September 2017
+### Panel B - Vital Statistics Estimates Produced since September 2017
 ![Panel B](Panel_B.png)
 
-# Previous Estimates
+## Previous Estimates
 For Panel B, we acccessed a variety of estimates of excess deaths. Here we are including links to each of these estimates, which are compiled in the data file used to produced [Panel B](figure_1_b.csv).
 
 * Center for Investigative Journalism - [here](http://periodismoinvestigativo.com/2017/12/nearly-1000-more-people-died-in-puerto-rico-after-hurricane-maria/)
@@ -29,6 +30,13 @@ For Panel B, we acccessed a variety of estimates of excess deaths. Here we are i
 * Santos and Howard (2017) - [here](https://osf.io/preprints/socarxiv/s7dmu/)
 * Santos and Howard (2018) - [here](https://jamanetwork.com/journals/jama/fullarticle/2696479)
 * Spagat and van Weezel - [here](https://www.researchgate.net/profile/Stijn_Van_Weezel/publication/325539271_Excess_Deaths_and_Hurricane_Maria/links/5b13c1cda6fdcc4611dfebc4/Excess-Deaths-and-Hurricane-Maria.pdf)
+
+## Supplementary Figure
+We also must ask ourselves whether the pre-Hurricane period behaved similarly to the historical trends. In this Supplementary Panel, we present the confidence intervals for January-August 2010-2016 and the corresponding total for 2017. As it can be appreciated in tis figure, the pre-Hurricane Maria period had 19,542 deaths which fall within the margins of variation observed in the previous years of the decade. There is **no** reason to build a counterfactual that does not behaves as it did for the pre-Hurricane Maria period. 
+
+![Supplementary Panel A](SuppPanel_A.png)
+
+The appropriate counterfactual should be one where the predicted value falls within the historical ranges of variation for the previous decade. 
 
 # Problems?
 If you find any problems with our data or code, please create an [issue](https://github.com/alexisrsantos/Correspondence_Lancet/issues) and we will answer it as soon as possible. 
