@@ -8,7 +8,7 @@ This repository includes the following:
 * [R code to produce the figures and meta-descriptive analysis discussed in our Letter](Commentary_Code_R_Repository.R)
 * [Data used to Produce Figure 1 - Panel A](figure_1.csv)
 * [Data used to produce Figure 1 - Panel B](figure_1_b.csv)
-* Data for the descriptive analysis (meta-analysis) is the same as for Figure 1 - Panel B
+* [Data for the meta-analysis is the same as for Figure 1 - Panel B](figure_1_b.csv)
 
 ## Figure 1
 ### Panel A 
