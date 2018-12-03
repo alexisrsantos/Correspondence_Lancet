@@ -22,7 +22,7 @@ We also must ask ourselves whether the pre-Hurricane period behaved similarly to
 
 There is **no** reason to build a counterfactual that does not behaves as it did for the pre-Hurricane Maria period. 
 
-The appropriate counterfactual should be one where the predicted value falls within the historical ranges of variation for the previous decade. We believe, this reinforces modeling approaches that produce values close to that of the census-scenario. 
+The appropriate counterfactual should be one where the predicted value falls within the historical ranges of variation for the previous decade. We believe, this reinforces modeling approaches that produce values close to that of the census-scenario and our [previous publication](https://jamanetwork.com/journals/jama/fullarticle/2696479). 
 
 ## Previous Estimates
 For Supplementary Panel A, we acccessed a variety of estimates of excess deaths. Here we are including links to each of these estimates, which are compiled in the data file used to produced [Panel B](figure_1_b.csv).
