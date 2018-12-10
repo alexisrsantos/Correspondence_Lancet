@@ -9,7 +9,7 @@ This repository includes the following:
 * [Data used to Produce Figure 1 - Panel A](figure_1.csv)
 * [Data used to produce Figure 1 - Panel B](figure_1_b.csv)
 * [Data for the meta-analysis is the same as for Figure 1 - Panel B](figure_1_b.csv)
-* [Supplementary Analysis: Risk Ratios](Rate_Ratios_Howard_Santos.pdf)
+* Supplementary Analysis: Risk Ratios
 
 ## Figure 1
 ### Panel A 
@@ -19,7 +19,7 @@ This repository includes the following:
 ![Panel B](Panel_B.png)
 
 #### Analysis of Panel B
-We also must ask ourselves whether the pre-Hurricane period behaved similarly to the historical trends. In this [Supplementary Panel]((Panel_B.png), we present the confidence intervals for January-August 2010-2016 and the corresponding total for 2017. As it can be appreciated in this figure, the pre-Hurricane Maria period had 19,542 deaths which fall within the margins of variation observed in the previous years of the decade (even with the ongoing out-migration). 
+We also must ask ourselves whether the pre-Hurricane period behaved similarly to the historical trends. In Panel B, we present the confidence intervals for January-August 2010-2016 and the corresponding total for 2017. As it can be appreciated in this figure, the pre-Hurricane Maria period had 19,542 deaths which fall within the margins of variation observed in the previous years of the decade (even with the ongoing out-migration). 
 
 There is **no** reason to build a counterfactual that does not behaves as it did for the pre-Hurricane Maria period. 
 
@@ -38,6 +38,14 @@ For Supplementary Panel A, we acccessed a variety of estimates of excess deaths.
 * Santos and Howard (2017) - [here](https://osf.io/preprints/socarxiv/s7dmu/)
 * Santos and Howard (2018) - [here](https://jamanetwork.com/journals/jama/fullarticle/2696479)
 * Spagat and van Weezel - [here](https://www.researchgate.net/profile/Stijn_Van_Weezel/publication/325539271_Excess_Deaths_and_Hurricane_Maria/links/5b13c1cda6fdcc4611dfebc4/Excess-Deaths-and-Hurricane-Maria.pdf)
+
+## Risk Ratios 
+We obtained data from the supplemental materials for Santos-Burgoa and colleagues1 and performed an analysis of the mortality assumptions underlying the counterfactual models presented in this article.  In Table 1, we present data from the article and the supplemental materials regarding: expected deaths and total population for both counterfactual models (census-based and displacement-scenario). 
+
+![Table S1](TableS1.png)
+
+We calculated Rate Ratios (RR) between the Displacement and Census models, and find that the relative magnitude of mortality for the Displacement and Census models is 95. This means individuals under the census-model had 5% lower mortality rates than those under the displacement model. However, when we consider the people who left under the displacement model as a separate population (Difference=Census Estimate – Displacement Estimate) and the associated reduction in expected deaths (1,784 deaths), this results in a period-mortality rate of 7.39 deaths per 1,000 persons. 
+We also calculated RR for each counterfactual model compared to the displaced population (Difference).  The RR approximates the expected mortality of this group (the displaced population) and those who remained behind. The Rate Ratio for the difference vs. the census model is 158. This means individuals who left the island would have had 58% higher mortality rates than those who remained in the Puerto Rico, if they stayed. At the same time, the Rate Ratio for the difference vs. displacement is 165. This means individuals who left the island under the displacement model would have had 65% higher mortality than those who remained in Puerto Rico. This suggests an overestimation of mortality risk for those who left in comparison to those who remained behind. Only under this assumption would the number of deaths decline to 13,633 for the period of interest. 
 
 ## Supplementary Figure
 Here is a visualization of those estimates, and of the GWU scenarios.
