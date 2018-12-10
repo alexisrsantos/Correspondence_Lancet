@@ -2,7 +2,7 @@
 library(tidyverse)
 
 #Path for Alexis Santos Dropbox
-data<-read.csv("C:/Users/ars39/Dropbox/Rebel Demographers/Hurricane Maria/Commentary on Santos-Burgoa et al/Data.csv")
+data<-read.csv("PATH HERE/Data.csv")
 
 ###################################################
 #Calculate the descriptive statistics for Panel A##
@@ -62,7 +62,7 @@ library("scales")
 library("cowplot")
 library("gridExtra")
 
-data_fig<-read.csv("C:/Users/ars39/Dropbox/Rebel Demographers/Hurricane Maria/Commentary on Santos-Burgoa et al/figure_1.csv")
+data_fig<-read.csv("PATH HERE/figure_1.csv")
 
 data_fig$Source<-as.character(data_fig$Source) #Code as Characters
 data_fig$Excess<-as.character(data_fig$Excess) #Code as Characters
@@ -107,7 +107,7 @@ month_average99 # Show month average and 99% C.I.
 # Create a figure from Correspondence#
 ######################################
 
-data_fig<-read.csv("C:/Users/ars39/Dropbox/Rebel Demographers/Hurricane Maria/Commentary on Santos-Burgoa et al/figure_1b.csv")
+data_fig<-read.csv("PATH HERE/figure_1b.csv")
 
 data_fig$Source<-as.character(data_fig$Source) #Again, make Source a character
 
@@ -133,20 +133,8 @@ figure<-ggarrange(expected_deaths,expected_deathspre,ncol=1,nrow=2,labels=c("A",
 
 figure #Show the figure
 
-##################################################################
-###Meta Analysis of all the estimates, but not the GWU Scenarios##
-##################################################################
-
-meta_scenarios <- data_fig_b %>%
-  filter(Central < 2000 & Central !=1191) %>%
-  summarize(Mean = mean(Central), s = sd(Central)) %>%
-  mutate(Lower = Mean - qt(0.975, 9) * s/sqrt(10),
-         Upper = Mean + qt(0.975, 9) * s/sqrt(10))
-
-meta_scenarios #Shows the central estimate and the 95% range
-
 # Supplementary Figure A
-data_fig_b<-read.csv("C:/Users/ars39/Dropbox/Rebel Demographers/Hurricane Maria/Commentary on Santos-Burgoa et al/figure_1_b.csv")
+data_fig_b<-read.csv("PATH HERE/figure_1_b.csv")
 
 data_fig_b$Source<-as.character(data_fig_b$Source) #As character
 
@@ -163,3 +151,15 @@ expected_deaths2 <- ggplot(data = data_fig_b, aes(x = Source, y = Central, color
   labs(title = "Supplementary Panel A: Vital Statistics Estimates Produced since September 2017", subtitle = "Compilation of excess deaths estimates produced after Hurricane Maria using Vital Statistics", y = "Excess Deaths", x ="")
 
 expected_deaths2 #Show the Figure
+
+##################################################################
+###Meta Analysis of all the estimates, but not the GWU Scenarios##
+##################################################################
+
+meta_scenarios <- data_fig_b %>%
+  filter(Central < 2000 & Central !=1191) %>%
+  summarize(Mean = mean(Central), s = sd(Central)) %>%
+  mutate(Lower = Mean - qt(0.975, 9) * s/sqrt(10),
+         Upper = Mean + qt(0.975, 9) * s/sqrt(10))
+
+meta_scenarios #Shows the central estimate and the 95% range
