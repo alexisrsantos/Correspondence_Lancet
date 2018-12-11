@@ -40,11 +40,12 @@ For Supplementary Panel A, we acccessed a variety of estimates of excess deaths.
 * Spagat and van Weezel - [here](https://www.researchgate.net/profile/Stijn_Van_Weezel/publication/325539271_Excess_Deaths_and_Hurricane_Maria/links/5b13c1cda6fdcc4611dfebc4/Excess-Deaths-and-Hurricane-Maria.pdf)
 
 ## Risk Ratios 
-We obtained data from the supplemental materials for Santos-Burgoa and colleagues1 and performed an analysis of the mortality assumptions underlying the counterfactual models presented in this article.  In Table 1, we present data from the article and the supplemental materials regarding: expected deaths and total population for both counterfactual models (census-based and displacement-scenario). 
+We obtained data from the supplemental materials for Santos-Burgoa and colleagues and performed an analysis of the mortality assumptions underlying the counterfactual models presented in this article.  In Table 1, we present data from the article and the supplemental materials regarding: expected deaths and total population for both counterfactual models (census-based and displacement-scenario). 
 
 ![Table S1](TableS1.png)
 
 We calculated Rate Ratios (RR) between the Displacement and Census models, and find that the relative magnitude of mortality for the Displacement and Census models is 95. This means individuals under the census-model had 5% lower mortality rates than those under the displacement model. However, when we consider the people who left under the displacement model as a separate population (Difference=Census Estimate – Displacement Estimate) and the associated reduction in expected deaths (1,784 deaths), this results in a period-mortality rate of 7.39 deaths per 1,000 persons. 
+
 We also calculated RR for each counterfactual model compared to the displaced population (Difference).  The RR approximates the expected mortality of this group (the displaced population) and those who remained behind. The Rate Ratio for the difference vs. the census model is 158. This means individuals who left the island would have had 58% higher mortality rates than those who remained in the Puerto Rico, if they stayed. At the same time, the Rate Ratio for the difference vs. displacement is 165. This means individuals who left the island under the displacement model would have had 65% higher mortality than those who remained in Puerto Rico. This suggests an overestimation of mortality risk for those who left in comparison to those who remained behind. Only under this assumption would the number of deaths decline to 13,633 for the period of interest. 
 
 ## Supplementary Figure
