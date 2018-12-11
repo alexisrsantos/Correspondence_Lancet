@@ -9,7 +9,7 @@ This repository includes the following:
 * [Data used to Produce Figure 1 - Panel A](figure_1.csv)
 * [Data used to produce Figure 1 - Panel B](figure_1_b.csv)
 * [Data for the meta-analysis is the same as for Figure 1 - Panel B](figure_1_b.csv)
-* Supplementary Analysis: Risk Ratios
+* [Supplementary Analysis: Risk Ratios](Rate_Ratios_Howard_Santos.pdf)
 
 ## Figure 1
 ### Panel A 
